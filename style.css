@@ -1,0 +1,215 @@
+.roleta{
+    height: 320px;
+    width: 736px;
+    margin-top: 10%;
+    margin-left: 20%;
+    display:flex;
+    border-radius: 5px;
+    border: 5px solid black; 
+    box-sizing: border-box; /* Faz com que a largura e a altura incluam a borda */
+}
+
+#position{
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.bloco1{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(25, 25, 25);
+}
+
+.escolha{
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 35px;
+    display: flex;
+    border: 0.1px solid #ffffff;
+    border-radius: 1px;
+}
+
+.normal{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(10, 10, 10);
+    display: flex;
+} 
+.norm{
+    color: antiquewhite;
+}
+
+.aut{
+    color: rgb(225, 229, 207);
+}
+
+h1 {
+    text-align: center; /* Centraliza horizontalmente */
+    line-height: 200px; /* Centraliza verticalmente */
+    margin: 0; /* Remove margem padrão do h1 */
+}
+
+.auto{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+}
+
+.dinheiro{
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 35px;
+    display: flex;
+    border: 0.1px solid #ffffff;
+    border-radius: 1px;
+}
+
+.quantia{
+    height: 31px;
+    width: 60%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    color: #ede5e2;
+}
+
+::placeholder {
+    color: #e3c5c5; /* Cor do marcador de posição */
+}
+
+.metade{
+    height: 35px;
+    width: 20%;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    border: 0.1px solid #ffffff;
+}
+
+.dobro{
+    height: 35px;
+    width: 20%;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    border: 0.1px solid #ffffff;
+}
+
+#x{
+    color: #ffffff;
+}
+
+#font{
+    color: rgb(211, 180, 180);
+    font-size: arial;
+}
+
+.texto{
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 35px;
+    display: flex;
+    color: rgb(207, 187, 163);
+}
+
+.cores{
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 35px;
+    display: flex;
+    gap: 10px;
+}
+
+.vermelho{
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+    width: calc(100% / 3);
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.vermelho.clicado {
+    
+}
+
+.preto.clicado {
+    
+}
+.branco.clicado {
+}
+.branco{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: calc(100% / 3);
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.preto{
+    background-color: rgb(35, 35, 35);
+    height: 100%;
+    width: calc(100% / 3);
+    border-radius: 3px;
+    display: flex;
+    cursor: pointer;
+}
+
+#font2{
+    color: rgb(233, 233, 218);
+    font-size: arial;
+} 
+#font3{
+    color: rgb(235, 86, 22);
+    font-size: arial;
+}
+
+.comecar{
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(255, 0, 0);
+    height: 35px;
+    width: 98%;
+    display: flex;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.comecar.clicado {
+    background-color: rgb(255, 60, 0);
+}
+
+#font4{
+    color: #ede5e2;
+}
+
+.bloco2{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(35, 35, 35);
+}
+
+.giro{
+    margin: 1%;
+    background-color: rgb(10, 10, 10);
+    width: 98%;
+    height: 78%;
+}
+
+.menu {
+    width: 160px;
+    height: 100px;
+    border: 3px solid black;
+    text-align: center;
+    display: flex; /* Adiciona display flex */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items:flex-start; /* Centraliza verticalmente */
+}
+
+.fontMenu {
+    margin: 0; /* Remove as margens padrão */
+    line-height: 25px; /* Define a linha de altura igual à altura da div */
+}

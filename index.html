@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="menu">
+        <h1 class="fontMenu">Saldo:</h1>
+    </div>
+
+    <div class="roleta">
+        <div class="bloco1">
+            <div class="escolha">
+                <div class="normal" id="position">
+                    <h2 class="norm">Normal</h2>
+                </div>
+                <div class="auto" id="position">
+                    <h2 class="aut">Auto</h2>
+                </div>
+            </div>
+
+            <div class="dinheiro">
+                <input type="text" class="quantia" id="meuInput" placeholder="Quantia"></input>
+                <button class="metade" id="position">
+                    <h2 id="x">1/2</h2>
+                </button>
+               
+                <button class="dobro" id="position" >
+                    <h2 id="x">2x</h2>
+                </button>
+            </div>
+
+            <div class="texto">Selecionar Cor</div>
+
+            <div class="cores">
+                <button class="vermelho" id="position">
+                    <h3 id="font2">x2</h3>
+                </button>
+                <button class="branco" id="position">
+                    <h3 id="font3">x14</h3>
+                </button>
+                <button class="preto" id="position">
+                    <h3 id="font2">x2</h3>
+                </button>
+            </div>
+
+            <button class="comecar" id="position">
+                <h3 id="font4">Começar o Jogo</h3>
+            </button>
+
+        </div>
+        <div class="bloco2">
+            <div class="giro">
+                
+            </div>
+            <div class="historico"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="saldo.js"></script>
+</body>
+</html>
